@@ -6,6 +6,11 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+#For pagination
+gem 'will_paginate', '~> 3.0.5'
+
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
