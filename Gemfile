@@ -11,6 +11,8 @@ gem 'will_paginate', '~> 3.0.5'
 
 gem 'simple_form'
 
+gem 'sprockets', '<= 2.11.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -32,7 +34,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'bootstrap-sass', '~> 3.3.4'
+gem 'bootstrap-sass', '~> 3.3.4.1'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
