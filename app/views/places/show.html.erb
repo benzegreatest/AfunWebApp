@@ -35,7 +35,7 @@
 	<div class="pull-right">
 		<% if current_user && current_user == @place.user %>
 		<%= link_to 'Edit', edit_place_path(@place), :class => 'btn btn-primary' %>
-		<%= link_to 'Destroy', place_path(@place), :method => :delete, :data => {:confirm => 'Are you sure you want to delete this?'},:class => 'btn btn-danger' %>
+		<%= link_to 'Delete', place_path(@place), :method => :delete, :data => {:confirm => 'Are you sure you want to delete this?'},:class => 'btn btn-danger' %>
     <%= link_to 'Add a Photo', place_photos_path(@place), :class => 'btn btn-primary', data: {toggle: "modal", target: "#myPhotoModal"}   %>
 		<% end %>
 	</div>
@@ -144,6 +144,7 @@
   <br />
   <br />
 <% @place.photos.each do |photo| %>
+  <br />
   <%= photo.caption %>
   <br />
   <%= image_tag photo.picture, :class => 'img-responsive' %>
