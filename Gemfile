@@ -6,6 +6,8 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem "fog", "~> 1.3.1"
+
 #For pagination
 gem 'will_paginate', '~> 3.0.5'
 
