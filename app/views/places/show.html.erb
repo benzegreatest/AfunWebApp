@@ -139,12 +139,15 @@
  <div class="col-xs-10 col-xs-offset-1">
 
       <h1 class="pull-left">Pictures</h1>
-
 <% if @place.photos.present?%>
 <div>
+  <br />
+  <br />
 <% @place.photos.each do |photo| %>
-  <%= image_tag photo.picture, :class => 'img-responsive' %>
   <%= photo.caption %>
+  <br />
+  <%= image_tag photo.picture, :class => 'img-responsive' %>
+  
 </div>
 <% end %>
 </div>
