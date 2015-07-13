@@ -10,6 +10,9 @@ Nomster::Application.configure do
   }
   ActionMailer::Base.delivery_method = :smtp
   # Code is not reloaded between requests.
+
+  config.action_mailer.default_url_options = { :host => 'nomster-ben-chinoy.herokuapp.com'}
+
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
