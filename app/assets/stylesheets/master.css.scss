@@ -23,7 +23,7 @@ p {
 body {
 	background: url('/assets/contemporary_china.png');
 	border-radius: 0;
-	
+	 
 }
 
 .navbar.navbar-inverse {
@@ -62,6 +62,8 @@ body {
 
 #map-canvas {
   height: 300px;
+  height: 100%;
+  width: 100%;
 }
 
 .clear {
