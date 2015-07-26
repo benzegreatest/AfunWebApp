@@ -5,7 +5,7 @@ class CommentTest < ActiveSupport::TestCase
   	user = FactoryGirl.create(:user)
   	place = FactoryGirl.create(:place)
   	comment = FactoryGirl.create(:comment)
-  	expected = 'one star'
+  	expected = 'One Star'
   	actual = comment.humanized_rating
     assert_equal expected, actual
    end

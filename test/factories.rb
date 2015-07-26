@@ -2,13 +2,13 @@ FactoryGirl.define do
 
 	factory :user do
 		sequence :email do |x|
-			"benchinoy@hotmail.com"
+			"benchinoy#{x}@gmail.com"
 		end
 		password "nicetime"
 		password_confirmation "nicetime"
 	end
 
-	factor :place do
+	factory :place do
 		name "Bens Place"
 		address "San Jose"
 		description "Fun times"
