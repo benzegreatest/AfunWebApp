@@ -13,6 +13,8 @@ gem 'will_paginate', '~> 3.0.5'
 
 gem 'simple_form'
 
+gem "factory_girl_rails", "~> 4.0"
+
 gem "geocoder"
 
 gem "figaro", ">=1.0.0"
